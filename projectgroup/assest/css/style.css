@@ -1,0 +1,97 @@
+/*general*/
+body{
+    font-family: 'Baloo 2', cursive;
+}
+h1{
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;}
+
+#firsttext{
+    text-align: center;
+}
+
+/*Bloc*/
+#container{
+    border: red solid 3px;
+    margin: O 100px;
+    padding: 0 20px;
+}
+
+.container{
+    flex: 1 1 auto;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border: solid black 1px;
+    align-items: center;
+}
+
+.containerbox1{
+    margin: auto;
+    order: 1;
+    width: 80%;
+    height: 435px;
+    flex-basis: auto;
+    border: solid orange 1px; 
+    align-self: center;
+    order: 1;
+}
+.containerbox2{  
+    margin-right: 20px;
+    padding: 10 auto;
+    order: 3;
+    flex-grow: 1;
+    width: 10%;
+    height: 400px;
+    border: solid  1px blue; 
+    flex-grow: 1;
+}
+.containerbox3{ 
+    margin: 0 20 0 20px;
+    padding: 10 auto;
+    order: 4;
+    width: 10%;
+    height: 400px;
+    border: solid green 1px; 
+    flex-grow: 1;
+}
+.containerbox4{
+    margin-left: 20px;
+    padding: 10 auto;
+    order: 5;
+    width: 10%;
+    height: 400px;
+    border: solid orange 1px; 
+    order:5;
+    flex-grow: 1;
+}
+/*nav*/
+.nav{
+    flex-grow: 1;
+    margin-top: 10px;
+    padding: 0;
+    order: 2;
+    flex-basis: 100%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li{
+    margin: 0;
+    padding: 0 ;
+    list-style-type:none;
+}
+nav ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Hind Siliguri', sans-serif;
+
+}
